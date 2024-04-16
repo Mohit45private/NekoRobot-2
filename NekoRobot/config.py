@@ -15,16 +15,16 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 77777  # integer value, dont use ""
-    API_HASH = "8888"
-    TOKEN = "TOKEN"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    BOT_NAME = "Neko Robot"
-    BOT_USERNAME = "NekoXRobot"
+    API_ID = 13279715  # integer value, dont use ""
+    API_HASH = "56e198053932ecf216af72a2ddffcd78"
+    TOKEN = "7132821230:AAEuc3cf-VDDWnsODFZPYE4asmGkIyQXszo"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    BOT_NAME = "Obanai"
+    BOT_USERNAME = "Obanai_ixbot"
     OWNER_ID = 769830161 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "Horimaya"
     SUPPORT_CHAT = 'NekoXSupport'  #Your own group for support, do not add the @
-    JOIN_LOGGER = -1360279453  #Prints any new group the bot is added to, prints just the name and ID.
-    EVENT_LOGS = -1360279453  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    JOIN_LOGGER = -1002139608040  #Prints any new group the bot is added to, prints just the name and ID.
+    EVENT_LOGS = -1002139608040  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     #RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'something://somewhat:user@hosturl:port/databasename'  # needed for any database modules
@@ -37,7 +37,7 @@ class Config(object):
     ARQ_API_KEY = None
     REM_BG_API_KEY = ""
     OPENWEATHERMAP_ID = ""
-    LOG_GROUP_ID = ""
+    LOG_GROUP_ID = "-1002139608040"
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
